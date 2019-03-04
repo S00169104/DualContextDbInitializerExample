@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualContextDbInitializerExample", "DualContextDbInitializerExample\DualContextDbInitializerExample.csproj", "{73750D53-2791-4B15-999A-F02DC8238AEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIDataLayer", "UIDataLayer\UIDataLayer.csproj", "{66ED913C-5B83-49B3-9FA1-CF2BDAF958C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73750D53-2791-4B15-999A-F02DC8238AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73750D53-2791-4B15-999A-F02DC8238AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73750D53-2791-4B15-999A-F02DC8238AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66ED913C-5B83-49B3-9FA1-CF2BDAF958C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ED913C-5B83-49B3-9FA1-CF2BDAF958C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66ED913C-5B83-49B3-9FA1-CF2BDAF958C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66ED913C-5B83-49B3-9FA1-CF2BDAF958C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
