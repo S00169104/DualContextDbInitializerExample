@@ -20,7 +20,7 @@ namespace DualContextDbInitializerExample
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            UIContext db = new UIContext();
+            //UIContext db = new UIContext();
         }
     }
 }
