@@ -14,11 +14,12 @@ namespace WebAPIConsoleApp
     {
         static void Main(string[] args)
         {
-            ClientAuthentication.baseWebAddress = "http://localhost:51132/";
+            ClientAuthentication.baseWebAddress = "http://localhost:10160/";
             if (ClientAuthentication.login("bowles.lionie@itsligo.ie", "LBowles$1"))
             {
                 Console.WriteLine("Successful login Token acquired {0} user status is {1}", ClientAuthentication.AuthToken, ClientAuthentication.AuthStatus.ToString());
             }
+            Console.ReadKey();
         }
     }
 }
